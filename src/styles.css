@@ -88,6 +88,11 @@ button {
   margin-right: 5px;
 }
 
+#db-tests {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     color: #f6f6f6;
@@ -106,4 +111,11 @@ button {
   button:active {
     background-color: #0f0f0f69;
   }
+}
+
+
+pre {
+  text-align: left;
+  max-width: max-content;
+  margin: 20px auto;
 }
